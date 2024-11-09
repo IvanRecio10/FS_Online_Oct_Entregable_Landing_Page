@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Skin</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="https://kit.fontawesome.com/49d97e010e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">
+                <img class="img-logo" src="https://cdn.shopify.com/s/files/1/0595/0403/3941/files/logo-PLanet-2021_2_8c166806-d316-4238-aff3-a6414ea7b217.png?height=628&pad_color=ffffff&v=1634136856&width=1200" alt="img-logo">
+            </div>
+            <div class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+                <div class="elements-list">
+                    <h4 class="element">Cuidado Facial<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Tipo de piel<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Te Preocupa<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Cuidados Corporales<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Maquillaje<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Outlet  y Promociones<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Novedades<i class="ms fa-solid fa-chevron-down"></i></h4>
+                    <h4 class="element">Marcas<i class="ms fa-solid fa-chevron-down"></i></h4>
+                </div>
+                <div class="actions">
+                    <p class="element"><i class="fa-regular fa-user fa-xl"></i></p>
+                    <p class="element"><i class="fa-solid fa-magnifying-glass fa-xl"></i></p>
+                    <p class="element"><i class="fa-solid fa-bag-shopping fa-xl"></i></i></p>
+                </div>
+        </div>
+        <div class="main">
+            <img src="https://planet-skin.com/cdn/shop/files/1800x800-1-11_1000x.jpg?v=1730892652" alt="img-main" class="img-big">
+            <img src="https://www.maquillalia.com/images/productos/planet-skin-protector-solar-clear-sun-serum-spf-50-pa-4-79985.jpeg" alt="img-main" class="img-mid">
+            <img src="https://planet-skin.com/cdn/shop/products/7_1-668576_800x.jpg?v=1692289589" alt="img-main" class="img-small">
+        </div>
+
+    </div>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('.elements-list').classList.toggle('active');
+            document.querySelector('.main').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
